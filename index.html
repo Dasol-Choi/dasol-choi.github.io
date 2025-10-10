@@ -1,0 +1,153 @@
+---
+layout: default
+---
+<!-- ========== About ========== -->
+<div class="docs-section" id="about">
+  <h4>About</h4>
+  <p>
+    <p>
+      Hello! I am an M.S. student in Digital Analytics, College of Computing at <a href="https://digitalanalytics.yonsei.ac.kr/digital_analytics/index.do" target="_blank">Yonsei University</a>, South Korea.
+      I am also a Research Scientist at <a href="https://aim-intelligence.com" target="_blank">AIM Intelligence</a>, working on multimodal safety, responsible AI, and large language models (LLMs).
+    </p>
+    <p>
+      My research focuses on building <b>safe, aligned, and responsible foundation models</b> that can interact with humans and real-world multimodal data.
+      I am particularly interested in the intersection of <b>AI safety, multimodal alignment, and trustworthy AI systems</b>.
+    </p>
+    <p>
+      My current research themes include:
+    </p>
+    <ul style="margin-left: 1em; margin-top: -1em;">
+      <li><i>Responsible and safe alignment of large language and vision-language models</i></li>
+      <li><i>Privacy-preserving and machine unlearning techniques for foundation models</i></li>
+      <li><i>Bias, fairness, and cultural grounding in multimodal and multilingual AI systems</i></li>
+    </ul>
+  </p>
+</div>
+
+<!-- ========== News ========== -->
+<div class="docs-section" id="news">
+  <h4>News</h4>
+    <ul>
+      <li>
+        <b style="color: #46923c;">[Oct. 2025]</b>&nbsp;&nbsp;
+        Two papers accepted at <b>EMNLP 2025 MRL Workshop</b>! 🎉 <a href="https://arxiv.org/abs/2507.04329" target="_blank">No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem</a> and <a href="https://arxiv.org/abs/2509.11303" target="_blank">Ko-PIQA: A Korean Physical Commonsense Reasoning Dataset with Cultural Context</a> (MRL Shared Task).
+      </li>
+      <li>
+        <b style="color: #46923c;">[Aug. 2025]</b>&nbsp;&nbsp;
+        Received the <b>Best Student Paper Award</b> at MedInfo 2025 🏆 for our paper <a href="https://europepmc.org/article/med/40776013" target="_blank">LLM-Based Medical Document Evaluation: Integrating Human Expert Insights.</a>
+      </li>
+      <li>
+        <b style="color: #46923c;">[Jul. 2025]</b>&nbsp;&nbsp;
+        Joined <a href="https://aim-intelligence.com" target="_blank">AIM Intelligence</a> as a Research Scientist.
+      </li>
+      <li>
+        <b style="color: #46923c;">[Mar. 2025]</b>&nbsp;&nbsp;
+        Awarded the <b>Google East Asia Student Travel Grant</b> for AAAI 2025!
+      </li>
+      <li>
+        <b style="color: #46923c;">[Nov. 2024]</b>&nbsp;&nbsp;
+        Our paper <a href="https://arxiv.org/abs/2409.14747" target="_blank">Distribution-Level Feature Distancing for Machine Unlearning</a> is accepted at AAAI 2025 🎉.
+      </li>
+      <li>
+        <b style="color: #46923c;">[Dec. 2024]</b>&nbsp;&nbsp;
+        Completed an ML/DL Research Internship at <a href="https://sionic.ai" target="_blank">SIONIC AI</a> (Dec. 2024 - Feb. 2025), focusing on multilingual reasoning benchmarks.
+      </li>
+      <li>
+        <b style="color: #46923c;">[Nov. 2024]</b>&nbsp;&nbsp;
+        Our paper <a href="https://www.jmir.org/2024/1/e58329/" target="_blank">Evaluation framework of large language models in medical documentation: Development and usability study</a> is accepted at Journal of Medical Internet Research(JMIR) - SCIE 🎉.
+      </li>
+      <li>
+        <b style="color: #46923c;">[Mar. 2024]</b>&nbsp;&nbsp;
+        Started M.S. in Digital Analytics, College of Computing at Yonsei University.
+      </li>
+      <li>
+        <b style="color: #46923c;">[Jul. 2023]</b>&nbsp;&nbsp;
+        Worked at <a href="https://smarthealthlab.skku.edu/" target="_blank">Samsung Medical Center</a> as a Data Analysis Researcher (Jul. 2023 - Feb. 2024).
+      </li>
+    </ul>
+</div>
+
+<!-- ========== Education ========== -->
+<div class="docs-section" id="education">
+  <h4>Education</h4>
+  <div class="paper">
+    <p class="title"><b>Yonsei University<b style="float:right;">Mar. 2024 – Present</b></b></p>
+    <p>M.S. in Digital Analytics, College of Computing</p>
+    <p>Coursework: Machine Learning, Deep Learning, NLP, Responsible AI, Big Data Applications</p>
+  </div>
+
+  <div class="paper">
+    <p class="title"><b>Kyung Hee University<b style="float:right;">Mar. 2013 – Feb. 2019</b></b></p>
+    <p>B.A. in Japanese Language (Major) & B.A. in Physical Education (Double Major)</p>
+  </div>
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+  <h6><b><i>(* indicates equal contribution)</i></b></h6>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <!-- Selected papers -->
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- All papers -->
+    <div class="tab-pane" id="papers-all">
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>Vitæ</h4>
+  <p>Full CV available in <a href={{ "/assets/cv/CV.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,84 @@
+papers:
+  - title: "Distribution-Level Feature Distancing for Machine Unlearning: Towards a Better Trade-off Between Model Utility and Forgetting"
+    authors: "<b>Dasol Choi</b>, Dongbin Na"
+    venue: "AAAI 2025 Main"
+    paper_pdf: "https://arxiv.org/abs/2409.14747"
+    selected: y
+
+  - title: "LLM-Based Medical Document Evaluation: Integrating Human Expert Insights"
+    authors: "Junhyuk Seo*, <b>Dasol Choi*</b>, Wonchul Cha, Taerim Kim"
+    venue: "MedInfo 2025 - Best Student Paper Award"
+    paper_pdf: "https://pubmed.ncbi.nlm.nih.gov/40776013/"
+    selected: y
+
+  - title: "Evaluation Framework of Large Language Models in Medical Documentation: Development and Usability Study"
+    authors: "Junkyuk Seo*, <b>Dasol Choi*</b>, Wonchul Cha, Haanju Yoo, Namkee Oh, Yongjin Yi, Gyehwa Lee, Edward Choi, Taerim Kim"
+    venue: "JMIR 2024 (SCIE Journal)"
+    paper_pdf: "https://www.jmir.org/2024/1/e58329/"
+    selected: y
+
+  - title: "Better Safe Than Sorry? Overreaction Problem of Vision Language Models in Visual Emergency Recognition"
+    authors: "<b>Dasol Choi</b>, Seunghyun Lee, Youngsook Song"
+    venue: "Under review at WACV 2026"
+    paper_pdf: "https://arxiv.org/abs/2505.15367"
+    selected: y
+
+  - title: "When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models"
+    authors: "<b>Dasol Choi</b>, Jihwan Lee, Minjae Lee, Minsuk Kahng"
+    venue: "Under review at AAAI 2026"
+    paper_pdf: "https://arxiv.org/abs/2508.03483"
+    selected: y
+
+  - title: "COMPASS: A Framework for Evaluating Organization-Specific Policy Alignment in LLMs"
+    authors: "<b>Dasol Choi*</b>, DongGeon Lee*, Brigitta Jesica Kartono*, Helena Berndt, Haon Park, Hwanjo Yu, Minsuk Kahng"
+    venue: "Submitted to ACL Rolling Review (Oct 2025)"
+    paper_pdf: ""
+    selected: y
+
+  - title: "When Good Sounds Go Adversarial: Jailbreaking Audio-Language Models with Benign Inputs"
+    authors: "Bodam Kim*, Hiskias Dingeto*, Taeyoun Kwon*, <b>Dasol Choi</b>, DongGeon Lee, Haon Park, JaeHoon Lee, Jongho Shin"
+    venue: "Under review at AAAI 2026"
+    paper_pdf: "https://arxiv.org/abs/2508.03365"
+    selected: y
+
+  - title: "Understand, Solve and Translate: Bridging the Multilingual Mathematical Reasoning Gap"
+    authors: "Hyunwoo Ko*, Guijin Son*, <b>Dasol Choi*</b>"
+    venue: "EMNLP 2025 MRL Workshop"
+    paper_pdf: "https://arxiv.org/abs/2501.02448"
+    selected: n
+
+  - title: "Ko-PIQA: A Korean Physical Commonsense Reasoning Dataset with Cultural Context"
+    authors: "<b>Dasol Choi*</b>, Jungwhan Kim*, Guijin Son"
+    venue: "EMNLP 2025 MRL Workshop (Shared Task)"
+    paper_pdf: "https://arxiv.org/abs/2509.11303"
+    selected: n
+
+  - title: "No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem"
+    authors: "<b>Dasol Choi</b>, Wonjae Park, Youngsook Song"
+    venue: "EMNLP 2025 MRL Workshop"
+    paper_pdf: "https://arxiv.org/abs/2507.04329"
+    selected: n
+
+  - title: "DMR: Disentangling Marginal Representations for Out-of-Distribution Detection"
+    authors: "<b>Dasol Choi</b>, Dongbin Na"
+    venue: "CVPR 2024 Workshop"
+    paper_pdf: "https://openaccess.thecvf.com/content/CVPR2024W/VAND/html/Choi_DMR_Disentangling_Marginal_Representations_for_Out-of-Distribution_Detection_CVPRW_2024_paper.html"
+    selected: n
+
+  - title: "Towards Efficient Machine Unlearning with Data Augmentation: Guided Loss-Increasing (GLI) to Prevent the Degradation of Model Utility"
+    authors: "<b>Dasol Choi</b>, Soora Choi, Eunsun Lee, Jinwoo Seo, Dongbin Na"
+    venue: "CVPR 2024 Workshop"
+    paper_pdf: "https://openaccess.thecvf.com/content/CVPR2024W/TCV2024/html/Choi_Towards_Efficient_Machine_Unlearning_with_Data_Augmentation_Guided_Loss-Increasing_GLI_CVPRW_2024_paper.html"
+    selected: n
+
+  - title: "Towards Machine Unlearning Benchmarks: Forgetting the Personal Identities in Facial Recognition Systems"
+    authors: "<b>Dasol Choi*</b>, Dongbin Na*"
+    venue: "AAAI 2024 Workshop"
+    paper_pdf: "https://arxiv.org/abs/2311.02240"
+    selected: n
+
+  - title: "KoMultiText: Large-Scale Korean Text Dataset for Classifying Biased Speech in Real-World Online Services"
+    authors: "<b>Dasol Choi</b>, Jooyoung Song, Eunsun Lee, Jinwoo Seo, Heejune Park, Dongbin Na"
+    venue: "NeurIPS 2023 Workshop"
+    paper_pdf: "https://arxiv.org/abs/2310.04313"
+    selected: n

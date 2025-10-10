@@ -1,0 +1,27 @@
+experiences:
+  - place: "AIM Intelligence"
+    time: "Jul. 2025 - Present"
+    title: "Research Scientist"
+    category: "work"
+
+  - place: "Yonsei University"
+    time: "Mar. 2024 - Present"
+    title: "M.S. in Digital Analytics"
+    subtitle: "College of Computing"
+    category: "school"
+
+  - place: "SIONIC AI"
+    time: "Dec. 2024 - Feb. 2025"
+    title: "ML/DL Research Intern"
+    category: "work"
+
+  - place: "Samsung Medical Center"
+    time: "Jul. 2023 - Feb. 2024"
+    title: "Data Analysis Researcher"
+    category: "work"
+
+  - place: "Kyung Hee University"
+    time: "Mar. 2013 - Feb. 2019"
+    title: "B.A. in Japanese Language"
+    subtitle: "Double Major: Physical Education"
+    category: "school"

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ site.data.main_info.name }}</title>
+  <meta name="description" content="Homepage of Dasol Choi">
+  <meta name="author" content="Dasol Choi">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/skeleton/normalize.css" | prepend: site.baseurl }}>
+  <link rel="stylesheet" href={{ "/libs/external/skeleton/skeleton.css" | prepend: site.baseurl }}>
+  <link rel="stylesheet" href={{ "/libs/custom/my_css.css" | prepend: site.baseurl }}>
+
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src={{ "/libs/external/jquery-3.1.1.min.js" | prepend: site.baseurl }}></script>
+
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/font-awesome-4.7.0/css/font-awesome.min.css" | prepend: site.baseurl }}>
+
+  <!-- Academicons
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/academicons-1.8.6/css/academicons.min.css" | prepend: site.baseurl }}>
+
+  <!-- Skeleton tabs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/skeleton_tabs/skeleton-tabs.css" | prepend: site.baseurl }}>
+  <script src={{ "/libs/external/skeleton_tabs/skeleton-tabs.js" | prepend: site.baseurl }}></script>
+
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href={{ "/libs/external/timeline.css" | prepend: site.baseurl }}>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="stylesheet" href={{ "/libs/external/github-prettify-theme.css" | prepend: site.baseurl }}>-->
+  <script src={{ "/libs/custom/my_js.js" | prepend: site.baseurl }}></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href={{ "/assets/logos/emoji.png" | prepend: site.baseurl }}>
+  <link rel="shortcut icon" type="image/png" href={{ "/libs/emoji.png" | prepend: site.baseurl }}>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <section class="header">
+      <div class="row">
+        <div class="four columns">
+          <div><img class="u-max-full-width" style="border-radius: 1rem; max-width: 280px;" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></div>
+        </div>
+        <div class="seven columns offset-by-one main-description">
+            <h1 style="font-size: 4rem;">{{ site.data.main_info.name }}</h1>
+            <p style="font-size: 1.8rem;">{{ site.data.main_info.title }}</p>
+            <p style="font-size: 1.8rem;">{{ site.data.main_info.subtitle }}</p>
+            <p style="font-size: 1.8rem;">{{ site.data.main_info.email }}</p>
+            <p>
+              <span onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor: pointer; margin-right: 20px;">
+                <i class="fa ai ai-cv-square" aria-hidden="true" style="font-size: 4rem;"></i>
+              </span>
+
+              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer; margin-right: 20px;">
+                <i class="ai fa ai-google-scholar-square" aria-hidden="true" style="font-size: 4rem;"></i>
+              </span>
+
+              <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer; margin-right: 20px;">
+                <i class="fa fa-github-square" aria-hidden="true" style="font-size: 4rem;"></i>
+              </span>
+
+              <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer; margin-right: 20px;">
+                <i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 4rem;"></i>
+              </span>
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list" style="font-size: 1.3rem;">
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#about" | prepend: site.baseurl }}>About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#education" | prepend: site.baseurl }}>Education</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vitae</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    {{ content}}
+
+    <div class="footer">
+      <div class="row">
+        <div class="four columns">
+          {{ site.data.main_info.name }}
+        </div>
+        <div class="five columns">
+          Last updated on October 10, 2025
+        </div>
+        <div class="three columns" style="white-space: nowrap;">
+          <span onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor: pointer; margin-right: 15px; display: inline-block;">
+            <i class="fa ai ai-cv-square" aria-hidden="true" style="font-size: 3.5rem;"></i>
+          </span>
+          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer; margin-right: 15px; display: inline-block;">
+            <i class="ai ai-google-scholar-square" aria-hidden="true" style="font-size: 3.5rem;"></i>
+          </span>
+          <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer; margin-right: 15px; display: inline-block;">
+            <i class="fa fa-github-square" aria-hidden="true" style="font-size: 3.5rem;"></i>
+          </span>
+          <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer; display: inline-block;">
+            <i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 3.5rem;"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Google Analytics -->
+  {% include google_analytics.html %}
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
