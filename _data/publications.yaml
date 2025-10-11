@@ -19,25 +19,25 @@ papers:
 
   - title: "Better Safe Than Sorry? Overreaction Problem of Vision Language Models in Visual Emergency Recognition"
     authors: "<b>Dasol Choi</b>, Seunghyun Lee, Youngsook Song"
-    venue: "Under review at WACV 2026"
+    venue: "Under review"
     paper_pdf: "https://arxiv.org/abs/2505.15367"
     selected: y
 
   - title: "When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models"
     authors: "<b>Dasol Choi</b>, Jihwan Lee, Minjae Lee, Minsuk Kahng"
-    venue: "Under review at AAAI 2026"
+    venue: "Under review"
     paper_pdf: "https://arxiv.org/abs/2508.03483"
     selected: y
 
   - title: "COMPASS: A Framework for Evaluating Organization-Specific Policy Alignment in LLMs"
     authors: "<b>Dasol Choi*</b>, DongGeon Lee*, Brigitta Jesica Kartono*, Helena Berndt, Haon Park, Hwanjo Yu, Minsuk Kahng"
-    venue: "Submitted to ACL Rolling Review (Oct 2025)"
+    venue: "Under review"
     paper_pdf: ""
     selected: y
 
   - title: "When Good Sounds Go Adversarial: Jailbreaking Audio-Language Models with Benign Inputs"
     authors: "Bodam Kim*, Hiskias Dingeto*, Taeyoun Kwon*, <b>Dasol Choi</b>, DongGeon Lee, Haon Park, JaeHoon Lee, Jongho Shin"
-    venue: "Under review at AAAI 2026"
+    venue: "Under review"
     paper_pdf: "https://arxiv.org/abs/2508.03365"
     selected: y
 
