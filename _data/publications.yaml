@@ -82,3 +82,28 @@ papers:
     venue: "NeurIPS 2023 Workshop"
     paper_pdf: "https://arxiv.org/abs/2310.04313"
     selected: n
+
+  - title: "Multi-Step Reasoning in Korean and the Emergent Mirage"
+    authors: "Guijin Son, Hyunwoo Ko, <b>Dasol Choi</b>"
+    venue: "AAAI 2025 Workshop"
+    paper_pdf: "https://arxiv.org/abs/2503.14488"
+    selected: n
+
+  - title: "Improving Fine-grained Visual Understanding in VLMs through Text-Only Training"
+    authors: "<b>Dasol Choi</b>, Guijin Son, Soo Yong Kim, Gio Paik, Seunghyeok Hong"
+    venue: "AAAI 2025 Workshop"
+    paper_pdf: "https://arxiv.org/abs/2412.12940"
+    selected: n
+
+  - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
+    authors: "<b>Dasol Choi</b>, Guijin Son, Soo Yong Kim, Gio Paik, Seunghyeok Hong"
+    venue: "arxiv preprint"
+    paper_pdf: "https://arxiv.org/abs/2510.04230"
+    selected: n
+
+  - title: "Redefining Evaluation Standards: A Unified Framework for Evaluating the Korean Capabilities of Language Models"
+    authors: "Guijin Son, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, <b>Dasol Choi</b>, Kyong-Ha Lee, Youngjae Yu"
+    venue: "arxiv preprint"
+    paper_pdf: "https://arxiv.org/abs/2503.22968"
+    selected: n
+
