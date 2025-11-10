@@ -5,6 +5,12 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2409.14747"
     selected: y
 
+  - title: "Better Safe Than Sorry? Overreaction Problem of Vision Language Models in Visual Emergency Recognition"
+    authors: "<b>Dasol Choi</b>, Seunghyun Lee, Youngsook Song"
+    venue: "WACV 2026 Main"
+    paper_pdf: "https://arxiv.org/abs/2505.15367"
+    selected: y
+
   - title: "LLM-Based Medical Document Evaluation: Integrating Human Expert Insights"
     authors: "Junhyuk Seo*, <b>Dasol Choi*</b>, Wonchul Cha, Taerim Kim"
     venue: "MedInfo 2025 - Best Student Paper Award"
@@ -17,11 +23,6 @@ papers:
     paper_pdf: "https://www.jmir.org/2024/1/e58329/"
     selected: y
 
-  - title: "Better Safe Than Sorry? Overreaction Problem of Vision Language Models in Visual Emergency Recognition"
-    authors: "<b>Dasol Choi</b>, Seunghyun Lee, Youngsook Song"
-    venue: "Under review"
-    paper_pdf: "https://arxiv.org/abs/2505.15367"
-    selected: y
 
   - title: "When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models"
     authors: "<b>Dasol Choi</b>, Jihwan Lee, Minjae Lee, Minsuk Kahng"
