@@ -33,7 +33,7 @@ papers:
   - title: "COMPASS: A Framework for Evaluating Organization-Specific Policy Alignment in LLMs"
     authors: "<b>Dasol Choi*</b>, DongGeon Lee*, Brigitta Jesica Kartono*, Helena Berndt, Haon Park, Hwanjo Yu, Minsuk Kahng"
     venue: "Under review"
-    paper_pdf: ""
+    paper_pdf: "https://arxiv.org/abs/2601.01836"
     selected: y
 
   - title: "When Good Sounds Go Adversarial: Jailbreaking Audio-Language Models with Benign Inputs"
