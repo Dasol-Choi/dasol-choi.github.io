@@ -54,7 +54,7 @@ papers:
     selected: n
 
   - title: "No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem"
-    authors: "<b>Dasol Choi</b>, Wonjae Park, Youngsook Song"
+    authors: "<b>Dasol Choi</b>, Woomyoung Park, Youngsook Song"
     venue: "EMNLP 2025 MRL Workshop"
     paper_pdf: "https://arxiv.org/abs/2507.04329"
     selected: n
