@@ -29,6 +29,12 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2601.01836"
     selected: y
 
+  - title: "What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models"
+    authors: "<b>Dasol Choi*</b>, Guijin Son*, Hanwool Lee*, Minhyuk Kim, Hyunwoo Ko, Teabin Lim, Ahn Eungyeol, Jungwhan Kim, Seunghyeok Hong, Youngsook Song"
+    venue: "Under review"
+    paper_pdf: "https://arxiv.org/abs/2601.06165"
+    selected: y
+
   - title: "When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models"
     authors: "<b>Dasol Choi</b>, Jihwan Lee, Minjae Lee, Minsuk Kahng"
     venue: "Under review"
