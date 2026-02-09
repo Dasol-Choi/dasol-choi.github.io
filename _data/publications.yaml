@@ -23,6 +23,12 @@ papers:
     paper_pdf: "https://www.jmir.org/2024/1/e58329/"
     selected: y
 
+  - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
+    authors: "Guijin Son, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, <b>Dasol Choi</b>, Kyong-Ha Lee, Youngjae Yu"
+    venue: "ICLR 2026"
+    paper_pdf: "https://arxiv.org/abs/2510.04230"
+    selected: y
+
   - title: "COMPASS: A Framework for Evaluating Organization-Specific Policy Alignment in LLMs"
     authors: "<b>Dasol Choi*</b>, DongGeon Lee*, Brigitta Jesica Kartono*, Helena Berndt, Haon Park, Hwanjo Yu, Minsuk Kahng"
     venue: "Under review"
@@ -99,12 +105,6 @@ papers:
     authors: "<b>Dasol Choi</b>, Guijin Son, Soo Yong Kim, Gio Paik, Seunghyeok Hong"
     venue: "AAAI 2025 Workshop"
     paper_pdf: "https://arxiv.org/abs/2412.12940"
-    selected: n
-
-  - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
-    authors: "Guijin Son, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, <b>Dasol Choi</b>, Kyong-Ha Lee, Youngjae Yu"
-    venue: "arxiv preprint"
-    paper_pdf: "https://arxiv.org/abs/2510.04230"
     selected: n
 
   - title: "Redefining Evaluation Standards: A Unified Framework for Evaluating the Korean Capabilities of Language Models"
