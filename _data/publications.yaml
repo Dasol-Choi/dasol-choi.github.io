@@ -6,7 +6,7 @@ papers:
     selected: y
 
   - title: "What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models"
-    authors: "<b>Dasol Choi*</b>, Guijin Son*, Hanwool Lee*, Minhyuk Kim, Hyunwoo Ko, Teabin Lim, Ahn Eungyeol, Jungwhan Kim, Seunghyeok Hong, Youngsook Song"
+    authors: "<b>Dasol Choi*</b>, Guijin Son*, Hanwool Lee*, Minhyuk Kim, Hyunwoo Ko, Teabin Lim, Eungyeol Ahn, Jungwhan Kim, Seunghyeok Hong, Youngsook Song"
     venue: "ACL 2026 Findings"
     paper_pdf: "https://arxiv.org/abs/2601.06165"
     selected: y
@@ -33,7 +33,7 @@ papers:
     authors: "Hanwool Lee*, <b>Dasol Choi*</b>, Sooyong Kim, Ilgyun Jung, Sangwon Baek, Guijin Son, Inseon Hwang, Naeun Lee, Seunghyeok Hong"
     venue: "LREC 2026"
     paper_pdf: "https://arxiv.org/abs/2503.22968"
-    selected: y
+    selected: n
 
   - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
     authors: "Guijin Son, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, <b>Dasol Choi</b>, Kyong-Ha Lee, Youngjae Yu"
@@ -42,7 +42,7 @@ papers:
     selected: y
 
   - title: "Evaluation Framework of Large Language Models in Medical Documentation: Development and Usability Study"
-    authors: "Junkyuk Seo*, <b>Dasol Choi*</b>, Wonchul Cha, Haanju Yoo, Namkee Oh, Yongjin Yi, Gyehwa Lee, Edward Choi, Taerim Kim"
+    authors: "Junhyuk Seo*, <b>Dasol Choi*</b>, Wonchul Cha, Haanju Yoo, Namkee Oh, Yongjin Yi, Gyehwa Lee, Edward Choi, Taerim Kim"
     venue: "JMIR 2024"
     paper_pdf: "https://www.jmir.org/2024/1/e58329/"
     selected: y
@@ -57,7 +57,7 @@ papers:
     authors: "<b>Dasol Choi</b>, Jihwan Lee, Minjae Lee, Minsuk Kahng"
     venue: "Under review"
     paper_pdf: "https://arxiv.org/abs/2508.03483"
-    selected: y
+    selected: n
 
   - title: "When Good Sounds Go Adversarial: Jailbreaking Audio-Language Models with Benign Inputs"
     authors: "Hiskias Dingeto*, Taeyoun Kwon*, <b>Dasol Choi</b>*, Bodam Kim, DongGeon Lee, Haon Park, JaeHoon Lee, Jongho Shin"
