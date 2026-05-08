@@ -47,6 +47,12 @@ papers:
     paper_pdf: "https://www.jmir.org/2024/1/e58329/"
     selected: y
 
+  - title: "XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity"
+    authors: "<b>Dasol Choi</b>, Eugenia Kim, Jaewon Noh, Sang Seo, Eunmi Kim, Myunggyo Oh, Yunjin Park, Brigitta Jesica Kartono, Josef Pichlmeier, Helena Berndt, Sai Krishna Mendu, Glenn Johannes Tungka, Özlem Gökçe, Suresh Gehlot, Katherine Pratt, Amanda Minnich, Haon Park"
+    venue: "Under review"
+    paper_pdf: "https://arxiv.org/abs/2605.05662"
+    selected: y
+
   - title: "When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models"
     authors: "<b>Dasol Choi</b>, Jihwan Lee, Minjae Lee, Minsuk Kahng"
     venue: "Under review"
