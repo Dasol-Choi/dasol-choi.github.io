@@ -24,39 +24,43 @@ layout: default
   <h4>News</h4>
     <ul>
       <li>
-        <b style="color: #46923c;">[Apr. 2026]</b>&nbsp;&nbsp;
+        <b style="color: #888;">[Jun. 2026]</b>&nbsp;&nbsp;
+        Our paper <a href="https://arxiv.org/abs/2508.03483" target="_blank">When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models</a> is accepted at <b>ECCV 2026</b>! See you in Malmö! 🇸🇪
+      </li>
+      <li>
+        <b style="color: #888;">[Apr. 2026]</b>&nbsp;&nbsp;
         Two of my first-author papers are accepted to <b>ACL 2026</b>! <a href="https://arxiv.org/abs/2601.01836" target="_blank">COMPASS: A Framework for Evaluating Organization-Specific Policy Alignment in LLMs</a> (Main Track) and <a href="https://arxiv.org/abs/2601.06165" target="_blank">What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models</a> (Findings).
       </li>
       <li>
-      <b style="color: #46923c;">[Feb. 2026]</b>&nbsp;&nbsp;
+      <b style="color: #888;">[Feb. 2026]</b>&nbsp;&nbsp;
       Our paper <a href="https://arxiv.org/abs/2503.22968" target="_blank">Redefining Evaluation Standards: A Unified Framework for Evaluating the Korean Capabilities of Language Models</a> is accepted at <b>LREC 2026</b>!
       </li>
       <li>
-        <b style="color: #46923c;">[Nov. 2025]</b>&nbsp;&nbsp;
+        <b style="color: #888;">[Nov. 2025]</b>&nbsp;&nbsp;
         Our paper <a href="https://arxiv.org/abs/2505.15367" target="_blank">Better Safe Than Sorry? Overreaction Problem of Vision Language Models in Visual Emergency Recognition</a> is accepted at <b>WACV 2026</b>!
       </li>
       <li>
-        <b style="color: #46923c;">[Oct. 2025]</b>&nbsp;&nbsp;
+        <b style="color: #888;">[Oct. 2025]</b>&nbsp;&nbsp;
         Two papers accepted at <b>EMNLP 2025 MRL Workshop</b>! <a href="https://arxiv.org/abs/2507.04329" target="_blank">No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem</a> and <a href="https://arxiv.org/abs/2509.11303" target="_blank">Ko-PIQA: A Korean Physical Commonsense Reasoning Dataset with Cultural Context</a> (MRL Shared Task).
       </li>
       <li>
-        <b style="color: #46923c;">[Aug. 2025]</b>&nbsp;&nbsp;
+        <b style="color: #888;">[Aug. 2025]</b>&nbsp;&nbsp;
         Received the <b>Best Student Paper Award</b> at <b>MedInfo 2025</b> for our paper <a href="https://europepmc.org/article/med/40776013" target="_blank">LLM-Based Medical Document Evaluation: Integrating Human Expert Insights.</a>
       </li>
       <li>
-        <b style="color: #46923c;">[Jul. 2025]</b>&nbsp;&nbsp;
+        <b style="color: #888;">[Jul. 2025]</b>&nbsp;&nbsp;
         Joined <a href="https://aim-intelligence.com" target="_blank">AIM Intelligence</a> as a Principal Researcher.
       </li>
       <li>
-        <b style="color: #46923c;">[Mar. 2025]</b>&nbsp;&nbsp;
+        <b style="color: #888;">[Mar. 2025]</b>&nbsp;&nbsp;
         Awarded the <b>Google East Asia Student Travel Grant</b> for AAAI 2025!
       </li>
       <li>
-        <b style="color: #46923c;">[Nov. 2024]</b>&nbsp;&nbsp;
+        <b style="color: #888;">[Nov. 2024]</b>&nbsp;&nbsp;
         Our paper <a href="https://arxiv.org/abs/2409.14747" target="_blank">Distribution-Level Feature Distancing for Machine Unlearning</a> is accepted at <b>AAAI 2025</b>.
       </li>
       <li>
-        <b style="color: #46923c;">[Nov. 2024]</b>&nbsp;&nbsp;
+        <b style="color: #888;">[Nov. 2024]</b>&nbsp;&nbsp;
         Our paper <a href="https://www.jmir.org/2024/1/e58329/" target="_blank">Evaluation framework of large language models in medical documentation: Development and usability study</a> is accepted at <b>Journal of Medical Internet Research(JMIR) - SCIE</b>.
       </li>
     </ul>
@@ -80,46 +84,21 @@ layout: default
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
   <h6><b><i>(* indicates equal contribution)</i></b></h6>
+  <p>For the complete list, see my <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.</p>
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <!-- Selected papers -->
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-          <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
+  {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+  {% for paper in selected_papers %}
+    <div class="paper">
+      <p class="title"><b>{{ paper.title }}</b></p>
+      <p>{{ paper.authors }}</p>
+      <p><i>{{ paper.venue }}</i></p>
+      <div class="paper-buttons">
+        {% if paper.paper_pdf %}
+          <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+        {% endif %}
+      </div>
     </div>
-
-    <!-- All papers -->
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-          <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
+  {% endfor %}
 </div>
 
 <!-- ========== RESUME ========== -->

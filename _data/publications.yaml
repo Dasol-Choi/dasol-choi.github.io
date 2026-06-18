@@ -1,4 +1,10 @@
 papers:
+  - title: "When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models"
+    authors: "<b>Dasol Choi</b>, Jihwan Lee, Minjae Lee, Minsuk Kahng"
+    venue: "ECCV 2026"
+    paper_pdf: "https://arxiv.org/abs/2508.03483"
+    selected: y
+
   - title: "COMPASS: A Framework for Evaluating Organization-Specific Policy Alignment in LLMs"
     authors: "<b>Dasol Choi*</b>, DongGeon Lee*, Brigitta Jesica Kartono*, Helena Berndt, Haon Park, Hwanjo Yu, Minsuk Kahng"
     venue: "ACL 2026"
@@ -52,12 +58,6 @@ papers:
     venue: "Under review"
     paper_pdf: "https://arxiv.org/abs/2605.05662"
     selected: y
-
-  - title: "When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models"
-    authors: "<b>Dasol Choi</b>, Jihwan Lee, Minjae Lee, Minsuk Kahng"
-    venue: "Under review"
-    paper_pdf: "https://arxiv.org/abs/2508.03483"
-    selected: n
 
   - title: "When Good Sounds Go Adversarial: Jailbreaking Audio-Language Models with Benign Inputs"
     authors: "Hiskias Dingeto*, Taeyoun Kwon*, <b>Dasol Choi</b>*, Bodam Kim, DongGeon Lee, Haon Park, JaeHoon Lee, Jongho Shin"
