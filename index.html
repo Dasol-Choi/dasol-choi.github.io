@@ -87,7 +87,7 @@ layout: default
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
-  <h6><b><i>(* indicates equal contribution)</i></b></h6>
+  <h6><b><i>(* indicates equal contribution, &dagger; corresponding author)</i></b></h6>
   <p>For the complete list, see my <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.</p>
 
   {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
@@ -120,12 +120,17 @@ layout: default
     <p>Co-organized the forum program, including the Red-Teaming Workshop and Live Red-Teaming Challenge (with AIM Intelligence).</p>
     <p>Talk: “Judgement Day: Insights from Multimodal Red-Teaming Challenge.”</p>
   </div>
+
+  <div class="paper">
+    <p class="title"><b>Program Committee Member</b></p>
+    <p>AAAI 2026, 2027</p>
+  </div>
 </div>
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
-  <p>Full CV available in <a href={{ "/assets/cv/CV.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <p>Full CV available in <a href={{ "/assets/cv/CV_Dasol_Choi.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
 
   <ul class="timeline">
     {% for exp in site.data.experience.experiences %}
