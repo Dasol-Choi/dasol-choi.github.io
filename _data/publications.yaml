@@ -78,7 +78,7 @@ papers:
     selected: y
 
   - title: "NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap"
-    authors: "<b>Dasol Choi</b>, Joonyong Park, Daegon Yu, Soo Yong Kim, Youngsook Song, Seunghyeok Hong"
+    authors: "<b>Dasol Choi*</b>, Joonyong Park*, Daegon Yu, Soo Yong Kim, Youngsook Song, Seunghyeok Hong"
     venue: "Under review"
     paper_pdf: "https://arxiv.org/abs/2608.04397"
     selected: y
