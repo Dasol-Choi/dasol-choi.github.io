@@ -1,4 +1,36 @@
 papers:
+  # ---------- Preprints (under review) ----------
+  - title: "XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity"
+    authors: "<b>Dasol Choi</b>, Eugenia Kim, Jaewon Noh, Sang Seo, Eunmi Kim, Myunggyo Oh, Yunjin Park, Brigitta Jesica Kartono, Josef Pichlmeier, Helena Berndt, Sai Krishna Mendu, Glenn Johannes Tungka, Özlem Gökçe, Suresh Gehlot, Katherine Pratt, Amanda Minnich, Haon Park"
+    venue: "Under review"
+    paper_pdf: "https://arxiv.org/abs/2605.05662"
+    selected: y
+
+  - title: "EgoSafetyBench: A Diagnostic Egocentric Video Benchmark for Evaluating Embodied VLMs as Runtime Safety Guards"
+    authors: "Siddhant Panpatil, Arth Singh, Mijin Koo, Chaeyun Kim, Haon Park, <b>Dasol Choi</b>&dagger;"
+    venue: "Under review"
+    paper_pdf: "https://arxiv.org/abs/2607.00218"
+    selected: y
+
+  - title: "When Context Flips, Safety Breaks: Diagnosing Brittle Safety in Aligned Language Models"
+    authors: "<b>Dasol Choi*</b>, Alex Kwon*"
+    venue: "Under review"
+    paper_pdf: "https://arxiv.org/abs/2605.27851"
+    selected: y
+
+  - title: "NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap"
+    authors: "<b>Dasol Choi*</b>, Joonyong Park*, Daegon Yu, Soo Yong Kim, Youngsook Song, Seunghyeok Hong"
+    venue: "Under review"
+    paper_pdf: "https://arxiv.org/abs/2608.04397"
+    selected: y
+
+  - title: "When Good Sounds Go Adversarial: Jailbreaking Audio-Language Models with Benign Inputs"
+    authors: "Hiskias Dingeto*, Taeyoun Kwon*, <b>Dasol Choi</b>*, Bodam Kim, DongGeon Lee, Haon Park, JaeHoon Lee, Jongho Shin"
+    venue: "Under review"
+    paper_pdf: "https://arxiv.org/abs/2508.03365"
+    selected: y
+
+  # ---------- Conference & journal papers ----------
   - title: "When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models"
     authors: "<b>Dasol Choi</b>, Jihwan Lee, Minjae Lee, Minsuk Kahng"
     venue: "ECCV 2026"
@@ -17,10 +49,16 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2601.06165"
     selected: y
 
-  - title: "Distribution-Level Feature Distancing for Machine Unlearning: Towards a Better Trade-off Between Model Utility and Forgetting"
-    authors: "<b>Dasol Choi</b>, Dongbin Na"
-    venue: "AAAI 2025"
-    paper_pdf: "https://arxiv.org/abs/2409.14747"
+  - title: "Redefining Evaluation Standards: A Unified Framework for Evaluating the Korean Capabilities of Language Models"
+    authors: "Hanwool Lee*, <b>Dasol Choi*</b>, Sooyong Kim, Ilgyun Jung, Sangwon Baek, Guijin Son, Inseon Hwang, Naeun Lee, Seunghyeok Hong"
+    venue: "LREC 2026"
+    paper_pdf: "https://arxiv.org/abs/2503.22968"
+    selected: y
+
+  - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
+    authors: "Guijin Son, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, <b>Dasol Choi</b>, Kyong-Ha Lee, Youngjae Yu"
+    venue: "ICLR 2026"
+    paper_pdf: "https://arxiv.org/abs/2510.04230"
     selected: y
 
   - title: "Better Safe Than Sorry? Overreaction Problem of Vision Language Models in Visual Emergency Recognition"
@@ -34,53 +72,17 @@ papers:
     venue: "MedInfo 2025 (Best Student Paper Award)"
     paper_pdf: "https://pubmed.ncbi.nlm.nih.gov/40776013/"
     selected: y
-  
-  - title: "Redefining Evaluation Standards: A Unified Framework for Evaluating the Korean Capabilities of Language Models"
-    authors: "Hanwool Lee*, <b>Dasol Choi*</b>, Sooyong Kim, Ilgyun Jung, Sangwon Baek, Guijin Son, Inseon Hwang, Naeun Lee, Seunghyeok Hong"
-    venue: "LREC 2026"
-    paper_pdf: "https://arxiv.org/abs/2503.22968"
-    selected: y
 
-  - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
-    authors: "Guijin Son, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, <b>Dasol Choi</b>, Kyong-Ha Lee, Youngjae Yu"
-    venue: "ICLR 2026"
-    paper_pdf: "https://arxiv.org/abs/2510.04230"
+  - title: "Distribution-Level Feature Distancing for Machine Unlearning: Towards a Better Trade-off Between Model Utility and Forgetting"
+    authors: "<b>Dasol Choi</b>, Dongbin Na"
+    venue: "AAAI 2025"
+    paper_pdf: "https://arxiv.org/abs/2409.14747"
     selected: y
 
   - title: "Evaluation Framework of Large Language Models in Medical Documentation: Development and Usability Study"
     authors: "Junhyuk Seo*, <b>Dasol Choi*</b>, Wonchul Cha, Haanju Yoo, Namkee Oh, Yongjin Yi, Gyehwa Lee, Edward Choi, Taerim Kim"
     venue: "JMIR 2024"
     paper_pdf: "https://www.jmir.org/2024/1/e58329/"
-    selected: y
-
-  - title: "XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity"
-    authors: "<b>Dasol Choi</b>, Eugenia Kim, Jaewon Noh, Sang Seo, Eunmi Kim, Myunggyo Oh, Yunjin Park, Brigitta Jesica Kartono, Josef Pichlmeier, Helena Berndt, Sai Krishna Mendu, Glenn Johannes Tungka, Özlem Gökçe, Suresh Gehlot, Katherine Pratt, Amanda Minnich, Haon Park"
-    venue: "Under review"
-    paper_pdf: "https://arxiv.org/abs/2605.05662"
-    selected: y
-
-  - title: "When Context Flips, Safety Breaks: Diagnosing Brittle Safety in Aligned Language Models"
-    authors: "<b>Dasol Choi*</b>, Alex Kwon*"
-    venue: "Under review"
-    paper_pdf: "https://arxiv.org/abs/2605.27851"
-    selected: y
-
-  - title: "EgoSafetyBench: A Diagnostic Egocentric Video Benchmark for Evaluating Embodied VLMs as Runtime Safety Guards"
-    authors: "Siddhant Panpatil, Arth Singh, Mijin Koo, Chaeyun Kim, Haon Park, <b>Dasol Choi</b>&dagger;"
-    venue: "Under review"
-    paper_pdf: "https://arxiv.org/abs/2607.00218"
-    selected: y
-
-  - title: "When Good Sounds Go Adversarial: Jailbreaking Audio-Language Models with Benign Inputs"
-    authors: "Hiskias Dingeto*, Taeyoun Kwon*, <b>Dasol Choi</b>*, Bodam Kim, DongGeon Lee, Haon Park, JaeHoon Lee, Jongho Shin"
-    venue: "Under review"
-    paper_pdf: "https://arxiv.org/abs/2508.03365"
-    selected: y
-
-  - title: "NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap"
-    authors: "<b>Dasol Choi*</b>, Joonyong Park*, Daegon Yu, Soo Yong Kim, Youngsook Song, Seunghyeok Hong"
-    venue: "Under review"
-    paper_pdf: "https://arxiv.org/abs/2608.04397"
     selected: y
 
   - title: "NRT-Bench: Benchmarking Multi-Turn Red-Teaming of LLM Operator Agents in Safety-Critical Control Rooms"
