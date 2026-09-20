@@ -104,7 +104,7 @@ layout: default
 
   {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
 
-  <h5>Preprints</h5>
+  <h5 style="font-size: 2.0rem;">Preprints</h5>
   {% for paper in selected_papers %}
     {% if paper.venue == "Under review" %}
     <div class="paper">
@@ -120,7 +120,7 @@ layout: default
     {% endif %}
   {% endfor %}
 
-  <h5>Conference &amp; Journal Papers</h5>
+  <h5 style="font-size: 2.0rem;">Conference &amp; Journal Papers</h5>
   {% for paper in selected_papers %}
     {% if paper.venue != "Under review" %}
     <div class="paper">
