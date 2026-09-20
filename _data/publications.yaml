@@ -5,6 +5,7 @@ papers:
     venue: "Under review"
     paper_pdf: "https://arxiv.org/abs/2605.05662"
     code: "https://github.com/AIM-Intelligence/XL-SafetyBench"
+    dataset: "https://huggingface.co/datasets/AIM-Intelligence/XL-SafetyBench"
     selected: y
 
   - title: "EgoSafetyBench: A Diagnostic Egocentric Video Benchmark for Evaluating Embodied VLMs as Runtime Safety Guards"
