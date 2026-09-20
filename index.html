@@ -115,6 +115,15 @@ layout: default
         {% if paper.paper_pdf %}
           <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
         {% endif %}
+        {% if paper.code %}
+          <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+        {% endif %}
+        {% if paper.dataset %}
+          <a class="button" href="{{ paper.dataset }}" target="_blank">Dataset</a>
+        {% endif %}
+        {% if paper.huggingface %}
+          <a class="button" href="{{ paper.huggingface }}" target="_blank">Hugging Face</a>
+        {% endif %}
       </div>
     </div>
     {% endif %}
@@ -130,6 +139,15 @@ layout: default
       <div class="paper-buttons">
         {% if paper.paper_pdf %}
           <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+        {% endif %}
+        {% if paper.code %}
+          <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+        {% endif %}
+        {% if paper.dataset %}
+          <a class="button" href="{{ paper.dataset }}" target="_blank">Dataset</a>
+        {% endif %}
+        {% if paper.huggingface %}
+          <a class="button" href="{{ paper.huggingface }}" target="_blank">Hugging Face</a>
         {% endif %}
       </div>
     </div>
