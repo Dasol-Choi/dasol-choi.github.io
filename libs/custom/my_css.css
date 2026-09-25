@@ -54,6 +54,24 @@ h4 {
 .image {
   text-align: center; }
 
+/*  ================ News list (hanging indent)  ================ */
+#news ul {
+  list-style: none;
+  margin-left: 0; }
+#news li {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.8rem; }
+#news .news-date {
+  flex: 0 0 auto;
+  width: 8.5em;
+  color: #888;
+  font-weight: 600;
+  white-space: nowrap; }
+#news .news-text {
+  flex: 1 1 auto;
+  min-width: 0; }
+
 /*  ================ Project styling  ================ */
 .project-container {
   margin-bottom: 30px;
