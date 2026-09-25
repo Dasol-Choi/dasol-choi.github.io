@@ -1,13 +1,5 @@
 papers:
   # ---------- Preprints (under review) ----------
-  - title: "XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity"
-    authors: "<b>Dasol Choi</b>, Eugenia Kim, Jaewon Noh, Sang Seo, Eunmi Kim, Myunggyo Oh, Yunjin Park, Brigitta Jesica Kartono, Josef Pichlmeier, Helena Berndt, Sai Krishna Mendu, Glenn Johannes Tungka, Özlem Gökçe, Suresh Gehlot, Katherine Pratt, Amanda Minnich, Haon Park"
-    venue: "Under review"
-    paper_pdf: "https://arxiv.org/abs/2605.05662"
-    code: "https://github.com/AIM-Intelligence/XL-SafetyBench"
-    dataset: "https://huggingface.co/datasets/AIM-Intelligence/XL-SafetyBench"
-    selected: y
-
   - title: "EgoSafetyBench: A Diagnostic Egocentric Video Benchmark for Evaluating Embodied VLMs as Runtime Safety Guards"
     authors: "Siddhant Panpatil, Arth Singh, Mijin Koo, Chaeyun Kim, Haon Park, <b>Dasol Choi</b>&dagger;"
     venue: "Under review"
@@ -38,6 +30,14 @@ papers:
     selected: y
 
   # ---------- Conference & journal papers ----------
+  - title: "XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity"
+    authors: "<b>Dasol Choi</b>, Eugenia Kim, Jaewon Noh, Sang Seo, Eunmi Kim, Myunggyo Oh, Yunjin Park, Brigitta Jesica Kartono, Josef Pichlmeier, Helena Berndt, Sai Krishna Mendu, Glenn Johannes Tungka, Özlem Gökçe, Suresh Gehlot, Katherine Pratt, Amanda Minnich, Haon Park"
+    venue: "NeurIPS 2026 (Evaluations & Datasets Track)"
+    paper_pdf: "https://arxiv.org/abs/2605.05662"
+    code: "https://github.com/AIM-Intelligence/XL-SafetyBench"
+    dataset: "https://huggingface.co/datasets/AIM-Intelligence/XL-SafetyBench"
+    selected: y
+
   - title: "When Cars Have Stereotypes: Auditing Demographic Bias in Objects from Text-to-Image Models"
     authors: "<b>Dasol Choi</b>, Jihwan Lee, Minjae Lee, Minsuk Kahng"
     venue: "ECCV 2026"
@@ -122,7 +122,7 @@ papers:
 
   - title: "Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures"
     authors: "Tyler A. Chang et al. (including <b>Dasol Choi</b>)"
-    venue: "arXiv 2025"
+    venue: "NeurIPS 2026 (Evaluations & Datasets Track)"
     paper_pdf: "https://arxiv.org/abs/2510.24081"
     selected: n
 
